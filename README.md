@@ -36,9 +36,19 @@ Please ensure you have the following prerequisites before setting up the project
 - Python 3.x and pip installed on your local machine.
 - Git installed for version control.
 
-To install the required dependencies, follow these steps:
+The Scones Unlimited Machine Learning Workflow consists of several key stages, each with its own set of functionalities. Below is an overview of the major steps involved:
 
-1. Clone the repository to your local machine:
+Data Preparation
+Prepare your image dataset for model training. Organize the images into appropriate folders and ensure proper labeling for each category.
 
-```bash
-git clone https://github.com/your-username/scones-unlimited-ml-workflow.git
+Model Training
+Use SageMaker to train the image classification model with your prepared dataset. Fine-tune the model as needed to achieve optimal results for Scones Unlimited's specific requirements.
+
+Model Deployment
+Once the model is trained and tested, deploy it using AWS Lambda. This will allow real-time inference on new images and provide predictions for traffic management decisions.
+
+Model Monitoring
+Implement model monitoring to track the model's performance over time. Set up alerts to trigger retraining if the model's accuracy drops below a predefined threshold.
+
+License
+The Scones Unlimited Machine Learning Workflow project is licensed under the MIT License.
