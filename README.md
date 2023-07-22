@@ -1,7 +1,5 @@
 # Scones Unlimited Machine Learning Workflow
 
-![Scones Unlimited Logo](https://example.com/scones_unlimited_logo.png) <!-- Replace with the actual logo URL -->
-
 ## Overview
 
 The Scones Unlimited Machine Learning Workflow is a comprehensive image classification solution that empowers the company to manage and manipulate traffic effectively in different locations. This project utilizes a combination of AWS microservices, including SageMaker, Lambda, Step Functions, training jobs, and model monitoring, to deliver accurate and reliable image classification results.
@@ -10,8 +8,6 @@ The Scones Unlimited Machine Learning Workflow is a comprehensive image classifi
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Data Preparation](#data-preparation)
 - [Model Training](#model-training)
 - [Model Deployment](#model-deployment)
