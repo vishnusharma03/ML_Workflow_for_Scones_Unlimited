@@ -31,19 +31,19 @@ Optimize Delivery Routing: By accurately determining whether a delivery professi
 
 ## Data Preparation
 
-Prepare your image dataset for model training. Organize the images into appropriate folders and ensure proper labeling for each category.
+I first prepared the image dataset for model training. Organized the images into appropriate folders and ensured proper labeling for each category.
 
 ## Model Training
 
-Use SageMaker to train the image classification model with your prepared dataset. Fine-tune the model as needed to achieve optimal results for Scones Unlimited's specific requirements.
+Then Used SageMaker to train the image classification model with the prepared dataset. Fine-tuned the model as needed to achieve optimal results for Scones Unlimited's specific requirements.
 
 ## Model Deployment
 
-Once the model is trained and tested, deploy it using AWS Lambda. This will allow real-time inference on new images and provide predictions for traffic management decisions.
+Once the model is trained and tested, I did deploy it using AWS Lambda. This will allow real-time inference on new images and provide predictions for traffic management decisions.
 
 ## Model Monitoring
 
-Implement model monitoring to track the model's performance over time. Set up alerts to trigger retraining if the model's accuracy drops below a predefined threshold.
+Then I implemented model monitoring to track the model's performance over time, Set up alerts to trigger retraining if the model's accuracy drops below a predefined threshold.
 
 ## License
 
