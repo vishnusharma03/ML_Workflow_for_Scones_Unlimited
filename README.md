@@ -12,12 +12,10 @@ The Scones Unlimited Machine Learning Workflow is a comprehensive image classifi
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Data Preparation](#data-preparation)
 - [Model Training](#model-training)
 - [Model Deployment](#model-deployment)
 - [Model Monitoring](#model-monitoring)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -28,27 +26,24 @@ The Scones Unlimited Machine Learning Workflow is a comprehensive image classifi
 - Automated workflows using Step Functions for seamless execution.
 - Model monitoring to ensure high performance and timely retraining.
 
-## Installation
+### The Scones Unlimited Machine Learning Workflow consists of several key stages, each with its own set of functionalities. Below is an overview of the major steps involved:
 
-Please ensure you have the following prerequisites before setting up the project:
+## Data Preparation
 
-- AWS account with appropriate permissions to access SageMaker, Lambda, and Step Functions.
-- Python 3.x and pip installed on your local machine.
-- Git installed for version control.
-
-The Scones Unlimited Machine Learning Workflow consists of several key stages, each with its own set of functionalities. Below is an overview of the major steps involved:
-
-Data Preparation
 Prepare your image dataset for model training. Organize the images into appropriate folders and ensure proper labeling for each category.
 
-Model Training
+## Model Training
+
 Use SageMaker to train the image classification model with your prepared dataset. Fine-tune the model as needed to achieve optimal results for Scones Unlimited's specific requirements.
 
-Model Deployment
+## Model Deployment
+
 Once the model is trained and tested, deploy it using AWS Lambda. This will allow real-time inference on new images and provide predictions for traffic management decisions.
 
-Model Monitoring
+## Model Monitoring
+
 Implement model monitoring to track the model's performance over time. Set up alerts to trigger retraining if the model's accuracy drops below a predefined threshold.
 
-License
+## License
+
 The Scones Unlimited Machine Learning Workflow project is licensed under the MIT License.
