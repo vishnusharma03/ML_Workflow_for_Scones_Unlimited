@@ -21,7 +21,7 @@ Optimize Delivery Routing: By accurately determining whether a delivery professi
 
 ## Features
 
-- Image classification for traffic management at various locations.
+- Image classification for vehicles for optimizing delivery routing.
 - Utilizes AWS microservices for scalability and flexibility.
 - Training jobs for fine-tuning the model to the specific needs of Scones Unlimited.
 - Automated workflows using Step Functions for seamless execution.
