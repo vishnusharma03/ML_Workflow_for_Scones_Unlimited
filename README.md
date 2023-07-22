@@ -2,7 +2,12 @@
 
 ## Overview
 
-The Scones Unlimited Machine Learning Workflow is a comprehensive image classification solution that empowers the company to manage and manipulate traffic effectively in different locations. This project utilizes a combination of AWS microservices, including SageMaker, Lambda, Step Functions, training jobs, and model monitoring, to deliver accurate and reliable image classification results.
+Scones Unlimited, a leading baked goods delivery company, faces challenges in efficiently managing their delivery fleet. To streamline their operations, we are tasked with building an advanced image classification model that can classify the vehicles used by delivery drivers into two categories: bicycles and motorcycles.
+
+The primary goal of this project is to:
+
+Optimize Delivery Routing: By accurately determining whether a delivery professional is using a bicycle or a motorcycle, the model will help assign nearby orders to bicycle riders and more distant orders to motorcyclists. This optimization will reduce delivery times and enhance overall delivery efficiency.
+
 
 ## Table of Contents
 
